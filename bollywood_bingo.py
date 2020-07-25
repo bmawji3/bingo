@@ -83,6 +83,7 @@ def write_to_excel(workbook, bingo_board, sheet_number, font_size=18):
             cell.font = font
             cell.border = border
             cell.alignment = alignment
+
     return workbook
 
 
